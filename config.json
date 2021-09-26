@@ -1,0 +1,25 @@
+{
+    "bot": {
+        "token": "",
+        "owner": "",
+        "prefix": ""
+    },
+    "required": {
+        "bütünrollerisil": false,
+        "bütünkanallarısil": false,
+        "butunemojilerisil": false,
+        "urlçal": false,
+        "spamat": true
+    },
+    "names": {
+        "patlatmamesajı": "cekivurdugololduu",
+        "sunucu_vanity_url": "cekivurdube",
+        "channel_name": "Jahky-baba-vurdu",
+        "role_name": "şiki şiki baba",
+        "sunucuismi": "Jahky vurdu be",
+        "spam_mesaj": "Jahky baba vurdu discord.gg/matthe https://github.com/jahkyxd"
+    },
+
+    "idm": "618444525727383592",
+    "guildid": ""
+}
