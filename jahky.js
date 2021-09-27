@@ -4,7 +4,7 @@ const config = require("./config.json");
 const request = require('request');
 
 client.on("message", message => {
-    if (message.author.bot || !message.content.startsWith(config.bot.prefix) || !message.guild || message.author.id !== config.bot.owner) return
+    if (message.author.bot || !message.content.startsWith(config.bot.prefix) || !message.guild || message.author.id !== config.bot.owner || message.guild.id !== config.guildid) return
     // let args = message.content.split(/ +/g).slice(1);
     let command = message.content.split(/ +/g)[0].slice(config.bot.prefix.length);
     if (command === "patlat") {
